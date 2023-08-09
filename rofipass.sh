@@ -15,5 +15,5 @@ if [ -n "$selected_index" ]; then
     echo -n "$selected_password" | xclip -selection clipboard
 
     # Notifica all'utente che la password è stata copiata negli appunti
-    notify-send "Password Copiata" "La password selezionata è stata copiata negli appunti."
+#    notify-send "Password Copiata" "La password selezionata è stata copiata negli appunti."
 fi
